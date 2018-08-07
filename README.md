@@ -1,5 +1,8 @@
 # golang-wasm-example
 
+## Notice
+This is forked from [Chyroc/golang-wasm-example](https://github.com/Chyroc/golang-wasm-example)
+
 - Foreign User : https://chyroc.cn/golang-wasm-example/
 - China User : https://chyroc.coding.me/golang-wasm-example/
 
