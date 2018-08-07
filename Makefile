@@ -5,7 +5,7 @@ all: usage
 
 usage:
 	@echo ""
-	@echo "usage: make [clean|build|run]"
+	@echo "usage: make [clean:1|build:2|run:3]"
 	@echo ""
 
 edit-readme er:
@@ -29,7 +29,7 @@ update:
 	http-server . # npm install http-server -g
 
 git-update gu:
-	git add README.md Makefile run.sh public/wasm_exec.js plus-one/ fogleman_ellipse/
+	git add .gitignore README.md Makefile run.sh public/wasm_exec.js plus-one/ fogleman_ellipse/
 	git commit -m "Modify contents"
 	git config credential.helper store
 	git push https://github.com/sikang99/golang-wasm-example.git
