@@ -30,4 +30,5 @@ run r:
 git-update gu:
 	git add README.md Makefile run.sh public/wasm_exec.js plus-one/ fogleman_ellipse/
 	git commit -m "Modify contents"
-	git push 
+	git config credential.helper store
+	git push https://github.com/sikang99/golang-wasm-example.git
