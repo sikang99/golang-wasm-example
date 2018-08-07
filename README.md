@@ -1,7 +1,7 @@
 # golang-wasm-example
 
-Foreign User : https://chyroc.cn/golang-wasm-example/
-China User : https://chyroc.coding.me/golang-wasm-example/
+- Foreign User : https://chyroc.cn/golang-wasm-example/
+- China User : https://chyroc.coding.me/golang-wasm-example/
 
 ## download source
 ```
