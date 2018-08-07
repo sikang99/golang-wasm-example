@@ -14,6 +14,7 @@ edit-readme er:
 edit-make em:
 	vi Makefile
 
+# copy a new one from the new version of go compiler
 update:
 	cp $(GOROOT)/misc/wasm/wasm_exec.js public/
 
