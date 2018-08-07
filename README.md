@@ -1,7 +1,7 @@
 # golang-wasm-example
 
-## Notice
-This is forked from [Chyroc/golang-wasm-example](https://github.com/Chyroc/golang-wasm-example)
+Modified version of [Chyroc/golang-wasm-example](https://github.com/Chyroc/golang-wasm-example)
+to build with the new go compiler of golang1.11.beta3.
 
 - Foreign User : https://chyroc.cn/golang-wasm-example/
 - China User : https://chyroc.coding.me/golang-wasm-example/
