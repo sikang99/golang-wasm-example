@@ -17,14 +17,14 @@ edit-make em:
 update:
 	cp $(GOROOT)/misc/wasm/wasm_exec.js public/
 
-clean:
+1 clean:
 	echo "clean .wasm files"
 	rm ./*/*.wasm 1>/dev/null 2>&1
 
-build b:
+2 build b:
 	./run.sh
 
-run r:
+3 run r:
 	http-server . # npm install http-server -g
 
 git-update gu:
