@@ -3,6 +3,7 @@
 #
 all: usage
 
+.PHONY: usage
 usage:
 	@echo ""
 	@echo "usage: make [clean:1|build:2|run:3]"
@@ -29,7 +30,6 @@ update:
 	http-server . # npm install http-server -g
 
 git-update gu:
-	@make clean
 	git add .gitignore README.md Makefile run.sh public/wasm_exec.js plus-one/ fogleman_ellipse/
 	git commit -m "Modify contents"
 	git config credential.helper store
