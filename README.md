@@ -13,11 +13,14 @@ $ go get github.com/sikang99/golang-wasm-example
 
 ## build wasm and server
 ```
+$ make 
+usage: make [clean|build|run]
+$ make clean
 $ make build
 $ make run
 ```
 
-Type the url on your browser, http://127.0.0.1:8080 
+Type the following url on your browser, http://127.0.0.1:8080 
 
 ## Contents
 
