@@ -1,5 +1,5 @@
 #
-# Makefile
+# Makefile for WASM by Stoney
 #
 all: usage
 
